@@ -12,8 +12,7 @@ class PreviewToolBase extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final mediaQuery =
-        MediaQueryData.fromWindow(WidgetsBinding.instance.window);
+    final mediaQuery = MediaQueryData.fromView(View.of(context));
     return MediaQuery(
       data: mediaQuery,
       child: Directionality(

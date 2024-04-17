@@ -3,7 +3,6 @@ import 'package:footage/src/core/sequence.dart';
 import 'package:footage/src/core/time.dart';
 
 import 'context_extensions.dart';
-import 'freeze.dart';
 import 'markers.dart';
 
 class Series extends StatelessWidget {
