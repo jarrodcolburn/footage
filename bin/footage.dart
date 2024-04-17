@@ -126,7 +126,7 @@ class CreateCommand extends Command {
   Future<void> installFootagePackage() async {
     final process = await Process.start('flutter', [
       'pub',
-      'install',
+      'add',
       'footage',
     ]);
 
